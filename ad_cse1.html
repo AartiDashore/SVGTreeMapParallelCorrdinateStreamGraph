@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VA2:D3</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <style>
+        .tooltip {
+            position: absolute;
+            background: white;
+            border: 1px solid gray;
+            padding: 5px;
+            border-radius: 3px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            font-size: 12px;
+            pointer-events: none;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Treemap of Course By Course Type Aggregated by Department and Section</h1>
+    <svg width="1900" height="900"></svg>
+    <div class="tooltip"></div>
+
+    <script src="ad_cse1.js"></script>
+</body>
+</html>
